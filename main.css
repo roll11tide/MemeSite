@@ -21,3 +21,6 @@ body {
   margin: auto;
   width: 77%;
 }
+.titleText {
+  font-family: titleFont;
+}
