@@ -3,7 +3,13 @@ body {
 }
 .main-menu {
   height: 28em;
-  width: 28em;
+  width: 60%;
   background-color: #B1BABC;
-  border-radius: 20px;
+  border-radius: 25px;
+  position: relative;
+  margin: 10% auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 2em;
 }
