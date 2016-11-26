@@ -23,4 +23,6 @@ body {
 }
 .titleText {
   font-family: titleFont;
+  font-size: 5em;
+  text-align: center;
 }
