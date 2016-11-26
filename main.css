@@ -12,3 +12,8 @@ body {
   text-align: center;
   padding: 2em;
 }
+.memePic {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
