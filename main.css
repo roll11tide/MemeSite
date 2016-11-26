@@ -1,6 +1,10 @@
 body {
   background-color: #C3EBF4;
 }
+@font-face {
+  font-family: titleFont;
+  src: url(titleFont.ttf);
+}
 .main-menu {
   width: 60%;
   background-color: #B1BABC;
