@@ -1,0 +1,121 @@
+			body {
+    			background-color: black;
+    			margin-top: 0px;
+
+			}
+			@font-face {
+				font-family: titleFont;
+				src: url(SugarpunchDEMO.otf);
+			}
+			@font-face {
+				font-family: swagFont;
+				src: url(timeburner.ttf);
+			}
+			.container{
+			}
+			#navBar {
+				position: fixed;
+				margin: auto;
+				border-bottom-left-radius: 25px;
+				border-bottom-right-radius: 25px;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				left: 0;
+				right: 0;
+				height: 5em;
+				width: 98%;
+				background-color: #666666;
+				display: flex;
+				align-items: center;
+				z-index: 9999;
+			}
+			#upperBlock {
+				height: 28em;
+				width: 100%;
+				background-image: url(beaker.gif);
+				background-size: 100% 100%;
+				top: 10em;
+				display: flex;
+				justify-content: center; /* align horizontal */
+				/*align-items: center;*/ /* align vertical */
+			}
+			#lowerBlock {
+				height: 40em;
+				left: 0;
+				right: 0;
+				width: 100%;
+				background-color: #eff0f2;
+			}
+			.titleText {
+				position: relative;
+				top: 0.57em;
+				color: white;
+				font-size: 10em;
+				font-family: titleFont;
+
+			}
+			.initial_navBar-Button {
+				background-color: #00f6ff;
+				height: 3.5em;
+				width: 8em;
+				border-radius: 15px;
+				margin-left: 4em;
+				display: flex;
+				justify-content: center; /* align horizontal */
+				align-items: center; /* align vertical */
+			}
+			.initial_navBar-Button:active {
+				background-color: #38ff59;
+				height: 3.5em;
+				width: 8em;
+				border-radius: 15px;
+				margin-left: 4em;
+				display: flex;
+				justify-content: center; /* align horizontal */
+				align-items: center; /* align vertical */
+			}
+			.navBar-Button {
+				background-color: #00f6ff;
+				height: 3.5em;
+				width: 8em;
+				border-radius: 15px;
+				margin-left: 1em;
+				display: flex;
+				justify-content: center; /* align horizontal */
+				align-items: center; /* align vertical */
+			}
+			.navBar-Button:active {
+				background-color: #38ff59;
+				height: 3.5em;
+				width: 8em;
+				border-radius: 15px;
+				margin-left: 1em;
+				display: flex;
+				justify-content: center; /* align horizontal */
+				align-items: center; /* align vertical */
+			}
+			.buttonText {
+				color: #666666;
+				font-size: 2em;
+				font-family: swagFont;
+			}
+			.final_navBar-Button {
+				background-color: #38ff59;
+				height: 3.5em;
+				width: 8em;
+				border-radius: 15px;
+				margin-left: 36.5em;
+				float: right;
+				display: flex;
+				justify-content: center; /* align horizontal */
+				align-items: center; /* align vertical */
+			}
+			.final_navBar-Button:active {
+				background-color: #00f6ff;
+				height: 3.5em;
+				width: 8em;
+				border-radius: 15px;
+				margin-left: 36.5em;
+				display: flex;
+				justify-content: center; /* align horizontal */
+				align-items: center; /* align vertical */
+			}
